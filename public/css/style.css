@@ -1,0 +1,1163 @@
+@font-face {
+  src: url(/meiryo.ttc);
+  font-family: font;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@700&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: font;
+}
+html {
+  position: relative;
+  /* min-height: 315%; */
+  overflow-x: hidden;
+  scroll-behavior:smooth;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.img {
+  width: 150px;
+  max-width: 100%;
+}
+
+img {
+  width: 150px;
+  max-width: 100%;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(121, 120, 120);
+}
+
+nav li {
+  list-style: none;
+  padding: 0.4em 1em;
+}
+
+nav ul {
+  display: flex;
+}
+
+.banner img {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* フィリピン魅力紹介文 */
+
+.box0 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.box1 {
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.box2 {
+  max-width: 30em;
+  width: 100%;
+}
+
+.box2 li {
+  list-style: none;
+  padding: 0 1em;
+  text-align: left;
+}
+
+.box3 {
+  max-width: 30em;
+  width: 100%;
+}
+
+/* 地図 */
+
+main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+main img {
+  max-width: 900px;
+  width: 100%;
+}
+
+main a img {
+  max-width: 25px;
+  width: 100%;
+  position: absolute;
+}
+/* フィリピンのピン */
+.pin-1 {
+  top: 66.2%;
+  left: 53.2%;
+}
+
+.pin-2 {
+  top: 64.5%;
+  left: 51.4%;
+}
+
+.pin-3 {
+  top: 57%;
+  left: 53.7%;
+}
+
+.pin-4 {
+  top: 27%;
+  left: 51.8%;
+}
+
+.pin-5 {
+  top: 61.5%;
+  left: 53.8%;
+}
+/* 沖縄のピン */
+.opin-1 {
+  top: 63%;
+  left: 44.4%;
+}
+
+.opin-2 {
+  top: 81.5%;
+  left: 41.5%;
+}
+
+.opin-3 {
+  top: 59%;
+  left: 42.6%;
+}
+
+/* イベント情報 */
+
+.big {
+  display: flex;
+  border: 1px black solid;
+  justify-content: space-between;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+}
+
+.information {
+  display: flex;
+}
+
+.grandbig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+}
+.etitle {
+  background-color: rgb(23, 28, 65);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.box3 h2 {
+  margin-bottom: 1em;
+}
+
+.etitlemom {
+  display: flex;
+  width: 900px;
+  max-width: 100%;
+}
+
+.big {
+  padding: 1em;
+  font-size: 2em;
+  width: 900px;
+  max-width: 100%;
+  color: #727272;
+}
+
+.imgholder {
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.imgholder img {
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.schedule p {
+  font-weight: 300;
+  font-size: 0.7em;
+}
+
+.schedule a {
+  color: black;
+}
+
+.schedule {
+  padding-left: 1.5em;
+  text-decoration: none;
+  color: #727272;
+}
+
+.information ul {
+  list-style: none;
+  position: relative;
+}
+
+.information li {
+    list-style: none;
+    position: relative;
+    font-size: 0.6em;
+  }
+
+.information li::before {
+  position: absolute;
+  content: "•";
+  left: -25px;
+  font-size: 250%;
+  top: -23px;
+}
+
+.location {
+  font-size: 0.6em;
+}
+
+.info-title {
+  background-color: rgb(23, 28, 65);
+  color: white;
+  padding: 0.2em 0.5em;
+  margin-bottom: 1em;
+}
+
+footer {
+    background-color: rgb(23, 28, 65);
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+    /* bottom: 0;
+    margin-top: 5em;
+    width: 100vw; */
+  }
+
+footer img {
+  width: 150px;
+  max-width: 100%;
+}
+
+footer li:nth-child(1) ul {
+  width: 150px;
+  max-width: 100%;
+}
+
+footer li {
+  list-style: none;
+}
+.bigbrain {
+  font-size: 2em;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 0.9em;
+  padding: 0 0.5em;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer li:nth-child(2) ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0em 0.7em;
+}
+
+footer li:nth-child(3) {
+  display: flex;
+}
+
+footer li:nth-child(3) > div {
+  padding: 0.4em 0.6em;
+}
+
+footer li:nth-child(5) {
+  padding-bottom: 0.5em;
+}
+
+
+/* イベント詳細 */
+
+.hero-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+}
+.detail-hero {
+  display: flex;
+  border: #727272 1px solid;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.title-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.location-title {
+  border: 1px #727272 solid;
+  padding: 0.5em 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.location-reservation {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.location-reservation div:nth-child(2) {
+  margin-bottom: auto;
+}
+
+.detail-image {
+  display: grid;
+  min-height: 30em;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.detail-image img {
+  width: 450px;
+  max-width: 100%;
+  padding: 1em;
+  align-self: center;
+  justify-self: center;
+}
+
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.schedule-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+
+.schedule li {
+  list-style: none;
+  position: relative;
+  padding-left: 1.5em;
+}
+
+.schedule li::before {
+  position: absolute;
+  content: "•";
+  left: 0px;
+  font-size: 150%;
+  top: -6.5px;
+}
+
+.schedule-border {
+  border: 1px #727272 solid;
+  padding: 1em;
+  width: 100%;
+  max-width: 900px;
+}
+
+.schedule-explanation {
+  display: flex;
+}
+
+.place-price {
+  padding-left: 3em;
+}
+
+.place-explanation {
+  padding-top: 2em;
+}
+.place-explanation-title {
+  font-size: 1.3em;
+}
+
+.place-explanation-paragraph {
+  padding-top: 1em;
+}
+
+.place-review {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border: 1px #727272 solid;
+  width: 100%;
+  max-width: 900px;
+}
+
+.place-review-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.place-review-title {
+  grid-row: 1/3;
+  align-self: center;
+  justify-self: center;
+}
+
+.place-review-edit,
+.place-review-delete {
+  color: white;
+  background: rgb(253, 3, 4);
+  justify-self: center;
+  margin: 1em;
+  padding: 0.7em 0.2em;
+  border-radius: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+..place-review-edit {
+  width: auto;
+}
+.place-review-delete {
+  width: auto;
+}
+
+/* .place-review-edit {
+} */
+
+.hamburger {
+  display: none;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  header {
+    position: relative;
+  }
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    top: 40px;
+    position: absolute;
+    right: 2%;
+    height: 100%;
+  }
+
+  .spam{
+    display: block;
+    width: 30px;
+    height: 2px;
+    right: 5%;
+    position: relative;
+    background: black;
+  }
+
+  .spam::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    top: 7px;
+    position: absolute;
+    background: black;
+  }
+  .spam::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    bottom: 7px;
+    position: absolute;
+    background: black;
+  }
+
+  .box1 {
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .banner {
+    object-fit: cover;
+  }
+
+  .detail-image {
+    min-height: 30em;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .box3 h2 {
+    margin-top: 1em;
+  }
+
+/* 予約ページ */
+
+.Form {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+  border:1px solid
+}
+}
+@media screen and (max-width: 480px) {
+  .Form {
+    margin-top: 40px;
+  }
+}
+.Form-Item {
+  /* border-top: 1px solid #ddd; */
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-left: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+  }
+}
+.Form-Item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label {
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+}
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label.isMsg {
+    margin-top: 0;
+  }
+}
+.Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #5bc8ac;
+  color: #fff;
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label-Required {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+  }
+}
+.Form-Item-Input {
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  margin-left: 3px;
+  margin-top: 30px;
+  padding-left: 1em;
+  height: 60px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Input {
+    margin-left: 0;
+    margin-top: 18px;
+    height: 40px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+
+.Form-Item-Input1{
+  flex-direction: column;
+  padding-top: 150px;
+}
+
+
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Textarea {
+    margin-top: 18px;
+    margin-left: 0;
+    height: 200px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+.Form-Btn {
+  border-radius: 15px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 100px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: red;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Btn {
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 160px;
+    font-size: 16px;
+  }
+}
+
+/* loginはじまり */
+.col-md-7 {
+  margin: 2em;
+  background-image: url(../img/log-sign.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.col-md-8 h2 {
+  font-family: 'Kaisei Opti', serif;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  background-color:rgba(255,255,255,0.5);
+}
+
+.card-header {
+  font-family: 'Kaisei Opti', serif;
+  font-size: 25px;
+  margin-bottom: 10px;
+  background-color:rgba(255,255,255,0.5);
+}
+
+.col-md-8 dt {
+  font-weight: bold;
+  margin-top: 11px;
+}
+
+.col-md-8 input {
+  width: 300px;
+  box-sizing: border-box;
+  padding: .8em;
+  border-radius: 2em;
+  border: 2px solid #aaa;
+  outline: none;
+}
+
+.loginform textarea {
+  width: 300px;
+  box-sizing: border-box;
+  margin: 1em 0;
+  padding: .8em;
+  border-radius: 1em;
+  border: 2px solid #aaa;
+}
+
+
+.form-check {
+  color: #004aad;
+  width: 30%;
+}
+
+.btn-f {
+  text-align: right;
+}
+.btn {
+  color: tomato;
+  background-color:rgba(255,255,255,0.5);
+}
+
+.col-md-8 button {
+  background-color: tomato;
+  color: #fff;
+  font-size: 20px;
+  width: 100px;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  border: 3px solid tomato;
+  margin:0 0 0 auto
+}
+
+.col-md-8 button {
+  margin-left: 300px;
+  background-image: none;
+}
+
+.col-md-8 button:hover {
+  background-color: #fff;
+  color: #004aad;
+  cursor: pointer;
+}
+
+.attention {
+  font-size: x-small;
+  background-color:rgba(255,255,255,0.5);
+}
+
+/* loginおわり */
+
+/* contactはじまり */
+.contactform {
+  background-image: url(../img/contact.png);
+}
+/* topはじまり */
+.main-visual img {
+  width: 100vw;
+}
+
+.info {
+  background-image: url(../img/topB.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  padding: 30px 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conatactdl {
+  background-color:rgba(255,255,255,0.5);
+  margin-top: 100px;
+}
+
+.contactform dl {
+  width: 80%;
+  margin-right: auto;
+  margin-left : auto;
+}
+
+.contactform .icon {
+  font-size: xx-large;
+  font-family: 'Kaisei Opti', serif;
+  text-align: center;
+}
+
+.contactform dt {
+  width: 165px;
+  padding: 10px 0;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.contactform .name {
+  width: 240px;
+  height: 30px;
+}
+.contactform .email {
+  width: 100%;
+  height: 30px;
+}
+.contactform .message {
+  width: 100%;
+  height: 150px;
+  font-size: 20px;
+}
+
+@media screen and (min-width:768px){
+  .contactform .email {
+    width: 300px;
+    height: 30px;
+  }
+  .contactform .message {
+    height: 150px;
+  }
+}
+
+button {
+  background-color: tomato;
+  color: #fff;
+  font-size: 20px;
+  width: 100px;
+  display: block;
+  text-align: center;
+  /* line-height: 50px; */
+  border-radius: 5px;
+  border: 3px solid tomato;
+  margin:0 0 0 auto
+}
+
+button:hover {
+  background-color: #fff;
+  color: #004aad;
+  cursor: pointer;
+}
+
+.required:after {
+  content: "*";
+  color: tomato;
+}
+
+.attention {
+  font-size: x-small;
+}
+/* contactおわり */
+
+.info1 {
+  width: 100%;
+  height: auto;
+}
+
+.info2 {
+  background-color:rgba(255,255,255,0.9);
+  width: 90%;
+  height: auto;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left : auto;
+  font-weight: bold;
+}
+
+.info2 ul {
+  list-style: none;
+}
+
+.info3 {
+  width: 90%;
+  margin-right: auto;
+  margin-left : auto;
+}
+
+.info3 > a > img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.info3 img:hover {
+  opacity: 0.8;
+}
+/* topおわり */
+
+@media (max-width: 600px) {
+  .opin-1 {
+    top: 63%;
+    left: 40.4%;
+  }
+
+  .opin-2 {
+    top: 81.5%;
+    left: 34.5%;
+  }
+
+  .opin-3 {
+    top: 59%;
+    left: 35.6%;
+  }
+}
+
+/* イベント詳細 */
+
+.hero-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.detail-hero {
+  display: flex;
+  border: #727272 1px solid;
+  flex-direction: column;
+  width: 80%;
+}
+
+.title-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.location-title {
+  background-color:rgba(0,0,128,0.2);
+  width: 70%;
+  font-family: 'Kaisei Opti', serif;
+  font-size: xx-large;
+}
+
+.location-reservation {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-reservation div:nth-child(2) {
+  margin-bottom: auto;
+}
+
+.location-reserve {
+  background-color: #001c50;
+  border-radius: 50px 50px 50px 50px;
+  margin-bottom: 10px;
+  font-size: x-small;
+  color: #fff
+}
+
+.location-reserve:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width:768px){
+  .location-reserve {
+    font-size: small;}
+}
+
+.location-bookmark {
+  background-color: #001c50;
+  border-radius: 50px 50px 50px 50px;
+  margin-bottom: 10px;
+  font-size: x-small;
+  color: #fff
+}
+
+.location-bookmark:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width:768px){
+  .location-bookmark {
+    font-size: small;}
+}
+
+.location-rating {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  white-space: nowrap;
+  color: tomato;
+  margin: 0 0 0 auto;
+}
+
+.location-rating:before, .star5_rating:after {
+  content: '★★★★★';
+}
+
+.location-rating:after{
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #ffcf32;
+}
+
+
+.detail-image {
+  display: grid;
+  min-height: 30em;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.detail-image img {
+  width: 400px;
+  padding: 1em;
+  align-self: center;
+  justify-self: center;
+}
+
+.schedule1 {
+  display: flex;
+  margin-left: 20px;
+}
+
+.schedule-title {
+  background: linear-gradient(transparent 75%, #001c50 70%);
+}
+
+.time {
+  list-style: none;
+  margin-left: 15px;
+}
+
+.place-nameprice {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.place-name {
+  padding: 0.3em;
+  color: #fff;
+  background: tomato;
+  border-left: solid 5px #001c50;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.place-price {
+  padding: 0.3em;
+  color: #fff;
+  background: tomato;
+  border-left: solid 5px #001c50;
+}
+
+.place-explanation-title {
+  font-family: 'Kaisei Opti', serif;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.place-explanation-paragraph {
+  margin-bottom: 20px;
+  position: relative;
+  padding: 0.5em 1.5em;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+
+.place-explanation-paragraph:before, .place-explanation-paragraph:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: -webkit-calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: black;
+}
+.place-explanation-paragraph:before {left: 10px;}
+.place-explanation-paragraph:after {right: 10px;}
+.place-explanation-paragraph p {
+  margin: 0; 
+  padding: 0;
+}
+
+.place-review {
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.place-review-title {
+  /* grid-column: 1/3; */
+  font-family: 'Kaisei Opti', serif;
+  font-size: 25px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.place-review1 {
+  margin-top: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.place-reivew-edit {
+  background-color: tomato;
+  border-radius: 50px 50px 50px 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #fff
+}
+
+.place-reivew-edit:hover {
+  cursor: pointer;
+}
+
+.place-review-delete {
+  background-color: tomato;
+  border-radius: 50px 50px 50px 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #fff
+}
+
+.place-review-delete:hover {
+  cursor: pointer;
+}

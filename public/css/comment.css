@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.center{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1{
+  padding: 0.5em 1em;
+  margin: 2em 3em;
+  height: 32em;
+  width: 30em;
+  font-weight: bold;
+  border: solid 1px #000000;
+}
+
+.box2{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 1px #000000;
+}
+
+h5{
+  padding: 1em 5em;
+  margin: 0em 2em;
+  color: red;
+  background-color: gainsboro;
+  border: solid;
+  border: 1px solid;
+  border-color: black;
+  font-size: 20px;
+}
+
+.event-image{
+  padding: 2em 2em;
+  width: 30px;
+  height: 30px;
+  background-color:cornflowerblue;
+  border-radius: 150vh;
+}
+
+.space1{
+  padding: 0em 2em;
+}
+
+.boder{
+  border: solid;
+  border: 1px solid;
+}
+
+.button02 a {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: right;
+  margin: 2em 0em;
+  padding: 0.5em 2em;
+  width: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #d72424;
+  border-radius: 50vh;
+}
+
+.text-card{
+ display: flex;
+ flex-direction: column;
+ justify-content: left;
+ align-items: left;
+}
+
+.space2{
+ display: flex;
+ flex-direction: row;
+ justify-content: right;
+ align-items: right;
+}
+
+.size1{
+  font-size: 13px;
+  padding:0em 1.5em 0em 0em ;
+}
+
+
+/* 星 */
+.rating {
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+
+.hidden--visually {
+    border: 0;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.rating__label {
+  cursor: pointer;
+  color: gray;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.rating__icon::before {
+  content: "★";
+  font-size: 2rem;
+}
+
+.rating__input:hover ~ .rating__label {
+  color: lightgray;
+}
+
+.rating__input:checked ~ .rating__label {
+  color: #ffbb00;
+}
